@@ -1,6 +1,3 @@
-
-
-
 <div class="fullPageContent">
 
   <app-nav-menu></app-nav-menu>
@@ -13,10 +10,10 @@
   <label id="startWeekLabel">Vecka</label>
   <input id="startWeek" type="week" class="weekSelect"/>
 
-  <label id="periodLabel"><input id="checkBoxPeriod" type="checkbox" class="checkBoxOne"/>Intervall</label>
+  <label id="periodLabel"><input id="checkBoxPeriod" type="checkbox" class="checkBoxOne" (change)="togglePeriodStatus($event)"/>Intervall</label>
 
-  <label id="endWeekLabel">Till vecka</label>
-  <input id="endWeek" type="week" class="weekSelect"/>
+  <label id="endWeekLabel" *ngIf="this.periodStatus">Till vecka</label>
+  <input id="endWeek" type="week" class="weekSelect" *ngIf="this.periodStatus"/>
 
   <button id="filterButton">Filtrera</button>
 
@@ -43,7 +40,7 @@
 
   <button id="addTimeBtn">Lägg till</button>
 
-  <label id="sumCheckBox"><input type="checkbox" class="checkBoxOne"/>Summera</label>
+  <label id="sumCheckBox"><input type="checkbox" class="checkBoxOne" (change)="toggleSumStatus($event)"/>Summera</label>
 
 
 

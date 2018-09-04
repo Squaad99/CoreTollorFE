@@ -7,9 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimePageComponent implements OnInit {
 
+  periodStatus: boolean;
+  sumStatus: boolean;
+
   constructor() { }
 
   ngOnInit() {
+    this.periodStatus = false;
+  }
+
+  togglePeriodStatus(event){
+    if ( event.target.checked ) {
+      this.periodStatus = true;
+    } else {
+      this.periodStatus = false;
+    }
+  }
+
+  toggleSumStatus(event){
+    if ( event.target.checked ) {
+      this.sumStatus = true;
+    } else {
+      this.sumStatus = false;
+    }
   }
 
 }
