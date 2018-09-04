@@ -1,0 +1,167 @@
+
+.offerList{
+  position: absolute;
+  left: 5%;
+  top: 120px;
+  width: 200px;
+  height: 600px;
+  border: 1px solid gray;
+  list-style: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0;
+}
+
+.offertListItem{
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
+
+.offertNumberCol{
+  min-width: 68px;
+  max-width: 68px;
+  display: inline-block;
+  overflow:hidden;
+}
+
+.offertNameCol{
+  min-width: 128px;
+  display: inline-block;
+  overflow:hidden;
+  max-width: 128px;
+}
+
+#offertNumberLabel{
+  position: absolute;
+  left: 22%;
+  top: 120px;
+  max-width: 200px;
+  font-size: 16px;
+}
+
+#offertCreatedLabel{
+  position: absolute;
+  left: 22%;
+  top: 210px;
+  max-width: 200px;
+  font-size: 16px;
+}
+
+#offertCreatorLabel{
+  position: absolute;
+  left: 22%;
+  top: 180px;
+  max-width: 200px;
+  font-size: 16px;
+}
+
+#offertNameLabel{
+  position: absolute;
+  left: 22%;
+  top: 150px;
+  width: 200px;
+}
+
+#customerLabel{
+  position: absolute;
+  left: 22%;
+  top: 240px;
+  width: 200px;
+}
+
+#customerName{
+  position: absolute;
+  left: 22%;
+  top: 270px;
+  width: 200px;
+}
+
+#customerPhone{
+  position: absolute;
+  left: 22%;
+  top: 300px;
+  width: 200px;
+}
+
+#customerEmail{
+  position: absolute;
+  left: 22%;
+  top: 330px;
+  width: 200px;
+}
+
+#commentLabel{
+  position: absolute;
+  left: 22%;
+  top: 360px;
+  width: 200px;
+}
+
+#offertComment{
+  position: absolute;
+  resize: none;
+  left: 22%;
+  top: 380px;
+  width: 300px;
+  height: 200px;
+}
+
+#workplace{
+  position: absolute;
+  left: 46%;
+  width: 700px;
+  top: 120px;
+  height: 70%;
+  border: black 1px solid;
+  background-color: white;
+}
+
+.tabNav{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #F1F1F1;
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+}
+
+.tabNavItemLeft{
+  width: 341px;
+  object-fit: cover;
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 18px;
+  padding: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  float: left;
+  -webkit-user-select: none;
+  border-bottom: 1px grey solid;
+}
+
+.tabNavItemRight{
+  width: 341px;
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 18px;
+  padding: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  float: left;
+  -webkit-user-select: none;
+  border-bottom: 1px grey solid;
+}
+
+.tabNavItemLeftActive{
+  background-color: white;
+  border-bottom: 1px white solid;
+  border-right: 1px gray solid;
+}
+
+.tabNavItemRightActive{
+  background-color: white;
+  border-bottom: 1px white solid;
+  border-left: 1px gray solid;
+}

@@ -1,0 +1,152 @@
+.timeTable{
+  position: absolute;
+  left: 5%;
+  top: 18%;
+  width: 60%;
+  height: 45%;
+  border: 1px solid gray;
+  list-style: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.timeTableItem{
+  border-bottom: 1px solid gray;
+  padding: 0px;
+  margin: 0px;
+}
+
+.headerCol{
+  margin-right: -4px;
+  border-left: 1px gray solid;
+}
+
+.timeColOne{
+   padding: 2px;
+   width: 10%;
+   display: inline-block;
+}
+
+.timeColTwo{
+  padding: 2px;
+  width: 40%;
+  display: inline-block;
+}
+
+.timeColThree{
+  padding: 2px;
+  width: 11.5%;
+  display: inline-block;
+}
+
+.timeColFour{
+  padding: 2px;
+  width: 20%;
+  display: inline-block;
+}
+
+.timeColFive{
+  padding: 2px;
+  width: 15%;
+  display: inline-block;
+}
+
+#employeeSelect{
+  position: absolute;
+  left: 5%;
+  top: 13%;
+  width: 15%;
+}
+
+#startWeek{
+  position: absolute;
+  left: 22%;
+  top: 13%;
+  width: 9%;
+  min-width: 160px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+#startWeekLabel{
+  position: absolute;
+  left: 22%;
+  top: 11%;
+  font-size: 14px;
+}
+
+#periodLabel{
+  position: absolute;
+  left: 34%;
+  top: 13%;
+  font-size: 14px;
+}
+
+#endWeekLabel{
+  position: absolute;
+  left: 40%;
+  top: 11%;
+  font-size: 14px;
+}
+
+#endWeek{
+  position: absolute;
+  left: 40%;
+  top: 13%;
+  width: 9%;
+  min-width: 160px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+#filterButton{
+  position: absolute;
+  left: 55%;
+  top: 13%;
+  font-size: 16px;
+  padding: 4px;
+}
+
+#sumCheckBox{
+  position: absolute;
+  left: 58%;
+  top: 64%;
+}
+
+#numberField{
+  position: absolute;
+  left: 5%;
+  top: 67%;
+  width: 6%;
+}
+
+#workField{
+  position: absolute;
+  left: 13%;
+  top: 67%;
+  width: 18%;
+}
+
+#hourField{
+  position: absolute;
+  left: 33%;
+  top: 67%;
+  width: 6%;
+}
+
+#weekInput{
+  position: absolute;
+  left: 41%;
+  top: 66.7%;
+  width: 9%;
+}
+
+#addTimeBtn{
+  position: absolute;
+  left: 52%;
+  top: 66.7%;
+  font-size: 16px;
+  padding: 4px;
+}

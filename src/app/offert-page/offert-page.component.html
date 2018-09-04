@@ -1,0 +1,41 @@
+<div class="fullPageContent">
+
+  <app-nav-menu></app-nav-menu>
+
+  <ul class="offerList">
+    <li class="offertListItem"><label class="offertNumberCol">1</label><label class="offertNameCol">1wdaaaaaaaaaaaaaaaaaaaaaaaaawd</label></li>
+  </ul>
+
+  <label id="offertNumberLabel">14124124</label>
+  <label id="offertCreatedLabel">2018-04-05</label>
+  <label id="offertCreatorLabel">Håkan Berglud</label>
+  <label id="offertNameLabel">Donsö Kyrka</label>
+  <label id="customerLabel">Kund</label>
+  <label id="customerName">Telge Jonas</label>
+  <label id="customerPhone">0457-070780</label>
+  <label id="customerEmail">jonas@telge.se</label>
+  <label id="commentLabel">Kommentar</label>
+  <textarea id="offertComment">Hello</textarea>
+
+  <div id="workplace">
+    <ul class="tabNav">
+      <li class="tabNavItemLeft" (click)="setPageOne()" [ngClass]="{'tabNavItemLeftActive' : paneOne}">
+        first
+      </li>
+      <li class="tabNavItemRight" (click)="setPageTwo()" [ngClass]="{'tabNavItemRightActive' : paneTwo}">
+        Sec
+      </li>
+    </ul>
+
+    <div class="paneOne" *ngIf="paneOne">
+      <app-product-calculation></app-product-calculation>
+    </div>
+
+    <div class="paneTwo" *ngIf="paneTwo">
+      <app-money-calculation></app-money-calculation>
+    </div>
+
+  </div>
+
+</div>
+
